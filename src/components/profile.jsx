@@ -12,7 +12,7 @@ function Profile(props) {
         <div className="flex flex-col items-center justify-center h-full">
           <img
             className="flex h-[70px] w-[70px] rounded-md"
-            src="https://github.com/joaomoreiraNI.png"
+            src={props.image}
             alt=""
           />
           <p className="font-bold text-[#E1E1E6] text-base pt-3">
