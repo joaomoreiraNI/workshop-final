@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Juliana from './pages/juliana.jsx'
 
 
 const router = createBrowserRouter([
@@ -12,8 +13,8 @@ const router = createBrowserRouter([
   },
   {
     path: "/juliana",
-    element: <div>juliana</div>
-  }
+    element: <Juliana />
+  },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
