@@ -1,7 +1,7 @@
 function Profile(props) {
   return (
     <>
-      <div className="flex flex-col w-64 h-[294px] bg-[#202024] rounded-lg font-roboto">
+      <div className="flex flex-col w-64 h-[294px] bg-[#202024] rounded-lg font-roboto mb-40">
         <div className="flex opacity-70">
           <img
             className="object-cover w-[256px] h-[72px] rounded-t-lg"
