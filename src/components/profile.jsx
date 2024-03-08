@@ -1,7 +1,7 @@
 function Profile(props) {
   return (
     <>
-      <div className="flex flex-col w-64 h-[294px] bg-[#202024] rounded-lg">
+      <div className="flex flex-col w-64 h-[294px] bg-[#202024] rounded-lg font-roboto">
         <div className="flex opacity-70">
           <img
             className="object-cover w-[256px] h-[72px] rounded-t-lg"
@@ -18,9 +18,7 @@ function Profile(props) {
           <p className="font-bold text-[#E1E1E6] text-base pt-3">
             {props.name}
           </p>
-          <p className="text-sm font-normal text-[#8D8D99]">
-            {props.office}
-          </p>
+          <p className="text-sm font-normal text-[#8D8D99]">{props.office}</p>
         </div>
       </div>
     </>
