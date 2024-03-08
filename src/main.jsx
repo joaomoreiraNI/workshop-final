@@ -10,23 +10,23 @@ import João from "./pages/joão.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/workshop-final",
+    path: "/",
     element: <App />,
   },
   {
-    path: "/workshop-final/juliana",
+    path: "/juliana",
     element: <Juliana />,
   },
   {
-    path: "/workshop-final/miguelito",
+    path: "/miguelito",
     element: <Miguelito />,
   },
   {
-    path: "/workshop-final/ney",
+    path: "/ney",
     element: <Ney />,
   },
   {
-    path: "/workshop-final/joão",
+    path: "/joão",
     element: <João />,
   },
 ]);
